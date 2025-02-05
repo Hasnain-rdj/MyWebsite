@@ -13,3 +13,7 @@ document.getElementById("clearit").addEventListener("click", function () {
     username = document.getElementById("uName").value = "";
     password = document.getElementById("pass").value = "";
 });
+
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
