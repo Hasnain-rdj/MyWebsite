@@ -3,7 +3,7 @@ document.getElementById("logIn").addEventListener("click", function () {
     let password = document.getElementById("pass").value;
 
     if (username === "Hasnain" && password === "cfd@3718") {
-        window.location.href = "https://22f-3718.github.io/WebEngineering_Website_Hosting/";
+        window.location.href = "https://hasnain-rdj.github.io/Portfolio/";
     } else {
         alert("Invalid Username or Password");
     }
